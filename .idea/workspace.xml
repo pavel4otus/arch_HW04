@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e141a1d-5cf1-421e-a091-929431e239c9" name="Default Changelist" comment="Адрес сделан строкой для простоты, исправлены ошибки">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twilio_sdk_twilio_7_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/GeoPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/GoodMsk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/GoodProvincial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/GoodSpb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/GoodMskRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/GoodProvincialRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/GoodSpbRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/security/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/basket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basket/basket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/catalog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/catalog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/CatalogServiceStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/CatalogServiceStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/WareHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/domain/WareHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/dto/GoodDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/dto/GoodDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/GoodRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/repository/GoodRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createschema/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/createschema/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createschema/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/createschema/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/notification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/notification.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VrCjWLsEsC9dy8bjoMZamdnq8K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.pavel2107.arch.catalog.security" />
+      <recent name="ru.pavel2107.arch.catalog.repository" />
+      <recent name="ru.pavel2107.arch.catalog.domain" />
+      <recent name="ru.pavel2107.arch.basket" />
+      <recent name="ru.pavel2107.arch.order" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\otus\ArchitectorPO\homeworks\arch_HW04\catalog\src\main\java\ru\pavel2107\arch\catalog\service" />
+      <recent name="D:\Java\IdeaProjects\otus\ArchitectorPO\homeworks\arch_HW03\basket\src\main\java\ru\pavel2107\arch\basket" />
+      <recent name="D:\Java\IdeaProjects\otus\ArchitectorPO\homeworks\arch_HW03\basket\src\main\java\ru\pavel2107\arch\basket\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CatalogServiceStarter">
+    <configuration name="AdminServiceStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.admin.AdminServiceStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.authentication.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="basket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.basket.BasketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogServiceStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="catalog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.catalog.CatalogServiceStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.archpo.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateSchemaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="createschema" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.createschema.CreateSchemaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="registration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.pavel2107.arch.register.RegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminServiceStarter" />
+      <item itemvalue="Spring Boot.CreateSchemaApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+      <item itemvalue="Spring Boot.RegistrationApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.BasketApplication" />
+      <item itemvalue="Spring Boot.CatalogServiceStarter" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.116883114" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e141a1d-5cf1-421e-a091-929431e239c9" name="Default Changelist" comment="" />
+      <created>1578001961510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578001961510</updated>
+      <workItem from="1578001966182" duration="36466000" />
+      <workItem from="1578093215852" duration="2008000" />
+      <workItem from="1578171748498" duration="540000" />
+      <workItem from="1578173202439" duration="19727000" />
+    </task>
+    <task id="LOCAL-00001" summary="Адрес сделан строкой для простоты, исправлены ошибки">
+      <created>1578172274432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578172274432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Адрес сделан строкой для простоты, исправлены ошибки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Адрес сделан строкой для простоты, исправлены ошибки" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#SQL_Resolution_Scopes" timestamp="1578204792889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#SQL_Resolution_Scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1578204792889" />
+    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578179867725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578179867725" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578204751186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578204751186" />
+    <state x="734" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1578069463974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578069463974" />
+    <state x="761" y="388" width="416" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578233115904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="388" width="416" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1578233115904" />
+    <state x="837" y="228" width="283" height="583" key="#xdebugger.evaluate" timestamp="1578046162935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="837" y="228" width="283" height="583" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1578046162935" />
+    <state x="449" y="118" key="CommitChangelistDialog2" timestamp="1578172261272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578172261272" />
+    <state width="1631" height="497" key="GridCell.Tab.0.bottom" timestamp="1578244704488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704488" />
+    <state width="1631" height="497" key="GridCell.Tab.0.center" timestamp="1578244704488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704488" />
+    <state width="1631" height="497" key="GridCell.Tab.0.left" timestamp="1578244704488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704488" />
+    <state width="1631" height="497" key="GridCell.Tab.0.right" timestamp="1578244704488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704488" />
+    <state width="1631" height="497" key="GridCell.Tab.1.bottom" timestamp="1578244730963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578244730963" />
+    <state width="1631" height="497" key="GridCell.Tab.1.center" timestamp="1578244730963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578244730963" />
+    <state width="1631" height="497" key="GridCell.Tab.1.left" timestamp="1578244730963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578244730963" />
+    <state width="1631" height="497" key="GridCell.Tab.1.right" timestamp="1578244730963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578244730963" />
+    <state width="1631" height="497" key="GridCell.Tab.2.bottom" timestamp="1578244704383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704383" />
+    <state width="1631" height="497" key="GridCell.Tab.2.center" timestamp="1578244704382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704382" />
+    <state width="1631" height="497" key="GridCell.Tab.2.left" timestamp="1578244704382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704382" />
+    <state width="1631" height="497" key="GridCell.Tab.2.right" timestamp="1578244704383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1631" height="497" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578244704383" />
+    <state width="200" height="441" key="SqlResolveConfigurable" timestamp="1578204792748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="200" height="441" key="SqlResolveConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1578204792748" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1578172277556">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578172277556" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1578171754841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578171754841" />
+    <state x="203" y="98" width="1434" height="917" key="find.popup" timestamp="1578230270494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="203" y="98" width="1434" height="917" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578230270494" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/controller/BasketController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basket/src/main/java/ru/pavel2107/arch/basket/service/BasketServiceImpl.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/ru/pavel2107/arch/order/controller/OrderController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/ru/pavel2107/arch/order/controller/OrderController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/ru/pavel2107/arch/order/controller/OrderController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/BrandController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/service/BrandServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/ru/pavel2107/arch/admin/controller/UserController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/registration/src/main/java/ru/pavel2107/arch/register/service/UserServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/registration/src/main/java/ru/pavel2107/arch/register/controller/UserController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/ru/pavel2107/arch/notification/controller/NotificationController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/ru/pavel2107/arch/notification/service/NotificationServiceImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/ru/pavel2107/arch/notification/service/NotificationServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/ru/pavel2107/arch/notification/service/NotificationServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/UserServiceImpl.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/service/GoodsServiceImpl.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/controller/CatalogController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/controller/CatalogController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog/src/main/java/ru/pavel2107/arch/catalog/controller/CatalogController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
